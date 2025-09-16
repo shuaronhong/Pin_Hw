@@ -1,0 +1,443 @@
+(pin_hw1) d:\Development\Pin_Hw\HW2>python amazon_playwright.py "beds" 3 3
+<Locator frame=<Frame name= url='https://www.amazon.com/s?k=beds&crid=2TPPNHRM4OH8B&sprefix=beds%2Caps%2C169&ref=nb_sb_noss_1'> selector='div[data-asin] >> nth=0'>
+<Locator frame=<Frame name= url='https://www.amazon.com/s?k=beds&crid=2TPPNHRM4OH8B&sprefix=beds%2Caps%2C169&ref=nb_sb_noss_1'> selector='div[data-asin] >> nth=1'>
+<Locator frame=<Frame name= url='https://www.amazon.com/s?k=beds&crid=2TPPNHRM4OH8B&sprefix=beds%2Caps%2C169&ref=nb_sb_noss_1'> selector='div[data-asin] >> nth=2'>
+<Locator frame=<Frame name= url='https://www.amazon.com/s?k=beds&crid=2TPPNHRM4OH8B&sprefix=beds%2Caps%2C169&ref=nb_sb_noss_1'> selector='div[data-asin] >> nth=3'>
+<Locator frame=<Frame name= url='https://www.amazon.com/s?k=beds&crid=2TPPNHRM4OH8B&sprefix=beds%2Caps%2C169&ref=nb_sb_noss_1'> selector='div[data-asin] >> nth=4'>
+<Locator frame=<Frame name= url='https://www.amazon.com/s?k=beds&crid=2TPPNHRM4OH8B&sprefix=beds%2Caps%2C169&ref=nb_sb_noss_1'> selector='div[data-asin] >> nth=5'>
+<Locator frame=<Frame name= url='https://www.amazon.com/s?k=beds&crid=2TPPNHRM4OH8B&sprefix=beds%2Caps%2C169&ref=nb_sb_noss_1'> selector='div[data-asin] >> nth=6'>
+<Locator frame=<Frame name= url='https://www.amazon.com/s?k=beds&crid=2TPPNHRM4OH8B&sprefix=beds%2Caps%2C169&ref=nb_sb_noss_1'> selector='div[data-asin] >> nth=7'>
+Found 6 products with ASINs:
+ASIN: B086M58PQ3
+ASIN: B0BZ4Z2H52
+ASIN: B0BZ4YZHTP
+ASIN: B086M58PQ3
+ASIN: B0BZ4Z2H52
+ASIN: B0BZ4YZHTP
+Extracting reviews from page 1 for ASIN: B086M58PQ3
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B086M58PQ3_page_1.txt
+Extracting reviews from page 2 for ASIN: B086M58PQ3
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B086M58PQ3_page_2.txt
+Extracting reviews from page 3 for ASIN: B086M58PQ3
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B086M58PQ3_page_3.txt
+Extracting reviews from page 1 for ASIN: B0BZ4Z2H52
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0BZ4Z2H52_page_1.txt
+Extracting reviews from page 2 for ASIN: B0BZ4Z2H52
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0BZ4Z2H52_page_2.txt
+Extracting reviews from page 3 for ASIN: B0BZ4Z2H52
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0BZ4Z2H52_page_3.txt
+Extracting reviews from page 1 for ASIN: B0BZ4YZHTP
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0BZ4YZHTP_page_1.txt
+Extracting reviews from page 2 for ASIN: B0BZ4YZHTP
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0BZ4YZHTP_page_2.txt
+Extracting reviews from page 3 for ASIN: B0BZ4YZHTP
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0BZ4YZHTP_page_3.txt
+
+(pin_hw1) d:\Development\Pin_Hw\HW2>python amazon_playwright.py "shoes" 3 3
+Found 26 products with ASINs:
+ASIN: B07NPXDYDX
+ASIN: B07ZLM669B
+ASIN: B0DM8DL62C
+ASIN: B0D742JPD9
+ASIN: B0CGCPLMRH
+ASIN: B0C2JZD9S5
+ASIN: B0CKMKPDFZ
+ASIN: B0FBX6P55X
+ASIN: B0CL5YHSTB
+ASIN: B07ZLSTZGB
+ASIN: B0CBX6KF42
+ASIN: B07W7VW47Y
+ASIN: B0BZC24ZLR
+ASIN: B079FFDS4Y
+ASIN: B09DXVR4CP
+ASIN: B07ZSC35PB
+ASIN: B0C73MZF8M
+ASIN: B0CKMDL9T3
+ASIN: B0CWH47GCJ
+ASIN: B088KGZ9X6
+ASIN: B08R5FLQ7D
+ASIN: B004IM5K1K
+ASIN: B0CPDWB11N
+ASIN: B0CKMB74GX
+ASIN: B004WQAREC
+ASIN: B01HK4Y3KG
+Extracting reviews from page 1 for ASIN: B07NPXDYDX
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B07NPXDYDX_page_1.txt
+Extracting reviews from page 2 for ASIN: B07NPXDYDX
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B07NPXDYDX_page_2.txt
+Extracting reviews from page 3 for ASIN: B07NPXDYDX
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B07NPXDYDX_page_3.txt
+Extracting reviews from page 1 for ASIN: B07ZLM669B
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B07ZLM669B_page_1.txt
+Extracting reviews from page 2 for ASIN: B07ZLM669B
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B07ZLM669B_page_2.txt
+Extracting reviews from page 3 for ASIN: B07ZLM669B
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B07ZLM669B_page_3.txt
+Extracting reviews from page 1 for ASIN: B0DM8DL62C
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0DM8DL62C_page_1.txt
+Extracting reviews from page 2 for ASIN: B0DM8DL62C
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0DM8DL62C_page_2.txt
+Extracting reviews from page 3 for ASIN: B0DM8DL62C
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0DM8DL62C_page_3.txt
+
+(pin_hw1) d:\Development\Pin_Hw\HW2>python amazon_playwright.py "toys" 3 3 
+Found 71 products with ASINs:
+ASIN: B077YYP739
+ASIN: B0CP48DXJR
+ASIN: B0BHXKLNLP
+ASIN: B077YYP739
+ASIN: B0CP48DXJR
+ASIN: B0BHXKLNLP
+ASIN: B0DM3Q1TW7
+ASIN: B0DLC8JQLY
+ASIN: B0D93GB5J5
+ASIN: B0F7Y8QB8V
+ASIN: B0DSVKB2L9
+ASIN: B0D7CQGK8X
+ASIN: B08CLH6Q5J
+ASIN: B0FFMB4YFZ
+ASIN: B00FFJZ010
+ASIN: B07L1NG4JP
+ASIN: B0CV2G74KG
+ASIN: B0BCNRWTMF
+ASIN: B07T5Z3XDV
+ASIN: B0DG2VRFV7
+ASIN: B0DLTF7ZDB
+ASIN: B0DBXBZWVQ
+ASIN: B0CGHHMQVQ
+ASIN: B0FGCZ441F
+ASIN: B0FHHRBZYJ
+ASIN: B0DS6BX3G9
+ASIN: B0D6GGB2NC
+ASIN: B0C855J5NL
+ASIN: B0C1SJVKCH
+ASIN: B0BGLTYW59
+ASIN: B0DXVVQNSP
+ASIN: B0D61XBY86
+ASIN: B0FLDPDJ9S
+ASIN: B0C3528VHM
+ASIN: B0CSFPL6JN
+ASIN: B0CPP2JGZY
+ASIN: B07F6ZBW52
+ASIN: B0CPNBBY6T
+ASIN: B0CS65YR2Y
+ASIN: B077YYP739
+ASIN: B0CY4X37RD
+ASIN: B09SP4184B
+ASIN: B06XV1LW52
+ASIN: B0DG1X5KHM
+ASIN: B00WTDXSDM
+ASIN: B08HC44TBP
+ASIN: B0CHX4W2HH
+ASIN: B0BFF5YPLX
+ASIN: B074L8J2XR
+ASIN: B0CX24138S
+ASIN: B0CSJQHF6W
+ASIN: B0CC5GTSQF
+ASIN: B0CJBS6QBD
+ASIN: B084Y3DLFJ
+ASIN: B01NCUSC7V
+ASIN: B0CT2WSCKP
+ASIN: B0DBXM87ZF
+ASIN: B08FMB1TGS
+ASIN: B07YR9T251
+ASIN: B0CGHC2BSR
+ASIN: B0C7GMX4FT
+ASIN: B08JLSR6RN
+ASIN: B00ZY6JHU4
+ASIN: B0D5JX1QQF
+ASIN: B0CCD2PWSN
+ASIN: B0DJ5RPZY2
+ASIN: B0DZN2KDBG
+ASIN: B0CRHCJDPH
+ASIN: B0BBZP9442
+ASIN: B0D46FMQTJ
+ASIN: B0BYNDL3SW
+Extracting reviews from page 1 for ASIN: B077YYP739
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B077YYP739_page_1.txt
+Extracting reviews from page 2 for ASIN: B077YYP739
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B077YYP739_page_2.txt
+Extracting reviews from page 3 for ASIN: B077YYP739
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B077YYP739_page_3.txt
+Extracting reviews from page 1 for ASIN: B0CP48DXJR
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0CP48DXJR_page_1.txt
+Extracting reviews from page 2 for ASIN: B0CP48DXJR
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0CP48DXJR_page_2.txt
+Extracting reviews from page 3 for ASIN: B0CP48DXJR
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0CP48DXJR_page_3.txt
+Extracting reviews from page 1 for ASIN: B0BHXKLNLP
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0BHXKLNLP_page_1.txt
+Extracting reviews from page 2 for ASIN: B0BHXKLNLP
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0BHXKLNLP_page_2.txt
+Extracting reviews from page 3 for ASIN: B0BHXKLNLP
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+Saved 10 reviews to reviews_B0BHXKLNLP_page_3.txt
