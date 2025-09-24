@@ -1,0 +1,277 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Input Section */
+.input-section {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px);
+}
+
+.input-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.input-field {
+  flex: 1;
+  min-width: 250px;
+  padding: 15px 20px;
+  border: 2px solid #e1e5e9;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background: #f8f9fa;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #667eea;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.translate-btn {
+  padding: 15px 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 150px;
+}
+
+.translate-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+}
+
+.translate-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255,255,255,.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Image Display */
+.image-section {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.menu-image {
+  max-width: 100%;
+  max-height: 500px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.menu-image:hover {
+  transform: scale(1.02);
+}
+
+/* Menu Items Section */
+.menu-section {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.menu-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 15px;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+  border: 2px solid #e1e5e9;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background: #f8f9fa;
+}
+
+.menu-item:hover {
+  border-color: #667eea;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1);
+}
+
+.menu-item-header {
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  transition: background 0.3s ease;
+}
+
+.menu-item-header:hover {
+  background: #f0f2ff;
+}
+
+.menu-item-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.menu-item-translation {
+  font-size: 1.1rem;
+  color: #667eea;
+  margin-top: 5px;
+}
+
+.expand-icon {
+  font-size: 1.5rem;
+  color: #667eea;
+  transition: transform 0.3s ease;
+}
+
+.expand-icon.expanded {
+  transform: rotate(180deg);
+}
+
+.menu-item-details {
+  padding: 0 20px 20px;
+  background: white;
+  border-top: 1px solid #e1e5e9;
+}
+
+.ingredients-section,
+.flavor-section {
+  margin-bottom: 15px;
+}
+
+.section-title {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.ingredients-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ingredient-tag {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.flavor-text {
+  color: #666;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+/* Error Message */
+.error-message {
+  background: #fee;
+  color: #c33;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+  border-left: 4px solid #c33;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+  }
+  
+  .input-group {
+    flex-direction: column;
+  }
+  
+  .input-field {
+    min-width: 100%;
+  }
+  
+  .menu-item-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .expand-icon {
+    align-self: flex-end;
+  }
+}

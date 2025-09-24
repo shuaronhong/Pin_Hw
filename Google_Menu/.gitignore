@@ -1,0 +1,20 @@
+# Backend images
+back_end/images/
+
+# Backend menu JSON files
+back_end/menu_json/
+
+# API key files
+*API_KEY.txt
+
+# Python cache
+back_end/__pycache__/
+
+# Frontend build artifacts
+front_end/.vite/
+
+# Node modules
+front_end/node_modules/
+
+# Batch files
+*.bat
